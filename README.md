@@ -4,10 +4,13 @@ Sails-Generate-JSON API-Blueprints
 [![NPM version](https://badge.fury.io/js/sails-generate-jsonapi-blueprints.svg)](http://badge.fury.io/js/sails-generate-jsonapi-blueprints) ![Build status](https://travis-ci.org/mphasize/sails-generate-jsonapi-blueprints.svg?branch=master)
 
 JSON API Data compatible blueprints for Sails v0.11+
-This project is inspired by:
+This project is inspired by several projects:
 * [sails-generate-ember-blueprints](https://www.npmjs.com/package/sails-generate-ember-blueprints)
 * [sails-hook-jsonapi](https://www.npmjs.com/package/sails-hook-jsonapi)
 * [generator-sails-rest-api](https://www.npmjs.com/package/generator-sails-rest-api)
+
+I started this project because the Ember community badly needs JSONApi support in Sails. I am one of those Ember devs in bad need of this. So I am doing it myself. But this is really for the greater Sails community. I want to thank sails-generate-ember-blueprints. For without that project this one would not have been started. Much of the code is migrate from that project to get this project started. I gotta give credit where credit is due. Additional ideas are fostered in the sails-hook-jsonapi project which seems to have gone dormant. And lastly I hope have this project partner with the generator-sails-rest-api project. Eugene has created something pretty darn awesome. I do encourage anyone to contribute. Sails needs JSONAPI Format now.
+
 
 [Sails](http://www.sailsjs.org/)  override default Sails blueprints to support jsonapi.org compatible blueprints.
 
