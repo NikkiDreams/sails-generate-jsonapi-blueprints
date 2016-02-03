@@ -1,0 +1,50 @@
+{
+  "name": "sails-generate-jsonapi-blueprints",
+  "version": "0.0.0",
+  "description": "Generate a JSONAPI.org Data compatible blueprints in your Sails project.",
+  "author": {
+    "name": "Nichole Shannon",
+    "email": "git.nikki@dessein.com"
+  },
+  "engines": {
+    "node": ">= 4.2.2"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node tests/runner"
+  },
+  "homepage": "https://github.com/NikkiDreams/sails-generate-jsonapi-blueprints",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NikkiDreams/sails-generate-jsonapi-blueprints.git"
+  },
+  "bugs": {
+    "url": "http://github.com/NikkiDreams/sails-generate-jsonapi-blueprints/issues",
+    "email": "git.nikki@dessein.com"
+  },
+  "keywords": [
+    "sails",
+    "jsonapi",
+    "generator",
+    "generate",
+    "blueprint"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.0.1",
+    "pluralize": "^1.2.1",
+    "merge-defaults": "^0.2.1",
+    "jsonapi-serializer": "^2.0.4"
+  },
+  "devDependencies": {
+    "glob": "^6.0.4",
+    "mocha": "2.4.5",
+    "mocha-eslint": "^1.0.0",
+    "sails-generate": "*"
+  },
+  "sailsGenerator": {
+    "type": "jsonapi-blueprints",
+    "behavior": "add `sails generate jsonapi-blueprints`",
+    "sailsVersion": "0.11.x"
+  }
+}
