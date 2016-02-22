@@ -1,5 +1,6 @@
 Sails-Generate-JSON API-Blueprints
 ======================
+*WARNING: This project is in Development and is not ready to be deployed.
 
 [![NPM version](https://badge.fury.io/js/sails-generate-jsonapi-blueprints.svg)](http://badge.fury.io/js/sails-generate-jsonapi-blueprints) ![Build status](https://travis-ci.org/mphasize/sails-generate-jsonapi-blueprints.svg?branch=master)
 
